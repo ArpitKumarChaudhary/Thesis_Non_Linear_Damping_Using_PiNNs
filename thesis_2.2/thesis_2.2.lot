@@ -1,0 +1,19 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Phase~1 results: L2-relative error of the three models on the linear damped oscillator. Best per row in bold. Single seed, Adam-only training.}}{27}{table.caption.19}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Phase~2 results: PINN on the quadratic-damping oscillator, single seed, Adam-only.}}{31}{table.caption.22}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Greedy-tuner trajectory on the Duffing benchmark (single seed). The L-BFGS polish dominates the final L2 by approximately three orders of magnitude.}}{35}{table.caption.25}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Winning Phase~3 configuration from the greedy tuner.}}{35}{table.caption.26}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Five-seed rerun of the aggressive tuned configuration. The L2 distribution is bimodal.}}{36}{table.caption.28}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Stable Phase~3 configuration: $\eta = 10^{-3}$, 15\,000 Adam + 500 L-BFGS. All seeds reach L2 $< 2.2\times 10^{-3}$, eliminating the bimodality of Table~\ref {tab:bimodal}.}}{37}{table.caption.29}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Phase~3 hard-vs-soft IC ablation, mean $\pm $ std over 5 seeds at the aggressive configuration.}}{37}{table.caption.30}%
+\contentsline {table}{\numberline {6.6}{\ignorespaces Phase~3 vanilla MLP baseline (no physics). Mean $\pm $ std over 5 seeds.}}{37}{table.caption.32}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Cross-phase headline L2-relative numbers. ``In-domain'' uses the training window only; ``combined'' uses the full evaluation horizon.}}{41}{table.caption.35}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Wall-clock and resource use across phases on the same RTX~A6000 GPU.}}{42}{table.caption.40}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

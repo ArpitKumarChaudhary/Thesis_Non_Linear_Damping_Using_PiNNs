@@ -1,0 +1,16 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Phase~1 three-model comparison on the linear damped oscillator: pure NN (red), PINN (blue), Grey-Box PINN (green). The PINN wins in-domain $[0,2]$\,s but loses in extrapolation $[2,4]$\,s; the Grey-Box wins the combined interval.}}{27}{figure.caption.20}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Phase~2 system: $\ddot x + 0.5|\dot x|\dot x + 4 x = 0$. Left: position $x(t)$ (black) and velocity $\dot x(t)$ (red dashed). Right: phase-plane spiral showing the dissipation toward the origin.}}{30}{figure.caption.21}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Phase~3 tuned PINN prediction (red dashed) overlaid on the DOP853 reference (black solid) for the free Duffing benchmark, single seed. The two curves are visually indistinguishable; pointwise absolute error (right panel, log scale) is below $10^{-3}$ throughout.}}{36}{figure.caption.27}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Hard vs soft IC ablation with five-seed error bars on a logarithmic L2 axis. Hard IC and soft $\lambda =1$ are statistically indistinguishable at the mean; soft $\lambda \ge 10$ collapses by an order of magnitude or more.}}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces $K=16$ grouped-ensemble predictions for the Duffing benchmark, individual seeds in light traces, DOP853 reference in black. At the un-tuned aggressive learning rate several seeds get stuck in poor minima, illustrating the bimodality also visible in the smaller five-seed study.}}{39}{figure.caption.33}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces L2-relative error progression across the three implementation phases. The error bars on Phase~3 reflect the five-seed best-to-worst spread of the stable configuration. The horizontal red dashed line is the $10^{-2}$ thesis target. Phase~3 achieves a $130\times $ improvement over Phase~2.}}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Method-evolution table across the three implementation phases. Each row is a design choice; each column is a phase. The right-most column captures the cumulative engineering that delivered the Phase~3 result.}}{41}{figure.caption.36}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

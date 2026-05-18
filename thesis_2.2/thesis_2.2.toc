@@ -1,0 +1,87 @@
+\contentsline {chapter}{Candidate's Declaration}{1}{chapter*.1}%
+\contentsline {chapter}{Certificate}{2}{chapter*.2}%
+\contentsline {chapter}{Acknowledgements}{3}{chapter*.3}%
+\contentsline {chapter}{Abstract}{4}{chapter*.4}%
+\contentsline {chapter}{List of Symbols and Abbreviations}{11}{chapter*.8}%
+\contentsline {chapter}{\numberline {1}Introduction}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background and Motivation}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Why Beginner-Friendliness Matters Here}{14}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{14}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Contributions}{15}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Thesis Organisation}{15}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Theoretical Background}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Damped Harmonic Oscillator: A Beginner's Review}{17}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}The Equation and What Each Term Means}{17}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}The Closed-Form Solution (Under-Damped Free Response)}{18}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Non-Linear Variants}{18}{subsection.2.1.3}%
+\contentsline {paragraph}{Quadratic (air-drag) damping (Phase~2):}{18}{section*.9}%
+\contentsline {paragraph}{Cubic-stiffness Duffing (Phase~3):}{18}{section*.10}%
+\contentsline {section}{\numberline {2.2}Neural Networks for Beginners}{19}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The Multi-Layer Perceptron}{19}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Why Neural Networks Can Approximate Anything (Briefly)}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Input Normalisation: A Small but Critical Detail}{19}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Automatic Differentiation in One Page}{20}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Optimisation: Adam and L-BFGS}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Adam in Three Lines}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}L-BFGS for the Polish}{20}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Physics-Informed Neural Networks}{21}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}The Loss Formulation}{21}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Soft vs Hard Initial-Condition Enforcement}{21}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Known Failure Modes}{21}{subsection.2.5.3}%
+\contentsline {chapter}{\numberline {3}Phase 0 -- Literature Foundation}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Reading the IEEE Paper of Jiang \emph {et al.} (2024)}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Surrounding Literature}{23}{section.3.2}%
+\contentsline {paragraph}{Foundations:}{24}{section*.11}%
+\contentsline {paragraph}{Failure-mode analyses:}{24}{section*.12}%
+\contentsline {paragraph}{Adaptive loss weighting:}{24}{section*.13}%
+\contentsline {paragraph}{Spectral bias remedies:}{24}{section*.14}%
+\contentsline {paragraph}{Alternative paradigms:}{24}{section*.15}%
+\contentsline {section}{\numberline {3.3}Identified Gaps that Phases 1--3 Address}{24}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Phase 1 -- Linear Damped Oscillator with Three-Model Comparison}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}System Under Study and Analytical Reference}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Data Generation Protocol}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Three Models}{26}{section.4.3}%
+\contentsline {paragraph}{Model A: Pure Neural Network (Black-Box).}{26}{section*.16}%
+\contentsline {paragraph}{Model B: Physics-Informed Neural Network (White-Box).}{26}{section*.17}%
+\contentsline {paragraph}{Model C: Grey-Box PINN (System Identification).}{26}{section*.18}%
+\contentsline {section}{\numberline {4.4}Results: Three-Model Comparison Table}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Phase 1 Lessons Learned}{27}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Phase 2 -- Non-Linear Damping (Quadratic in Velocity)}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}The Quadratic-Damping ODE}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Network and Training Configuration}{30}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Architecture}{30}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Loss and Optimiser}{30}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}No L-BFGS in Phase 2}{31}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Phase 2 Results}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Phase 2 Lessons Learned}{31}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Phase 3 -- Cubic Duffing with Hard-IC and L-BFGS Polish}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}The Duffing Benchmark}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Bounded Hard-IC Reparametrisation}{33}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Failure of the Polynomial Gate}{33}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}The Bounded Gate}{34}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Two-Stage Optimiser Schedule}{34}{section.6.3}%
+\contentsline {paragraph}{Stage 1 -- Adam warm-up.}{34}{section*.23}%
+\contentsline {paragraph}{Stage 2 -- L-BFGS polish.}{34}{section*.24}%
+\contentsline {section}{\numberline {6.4}Greedy Hyperparameter Tuner}{35}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Five-Seed Reproducibility: The Bimodal Story}{36}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Hard versus Soft IC: A Five-Seed Ablation}{36}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Vanilla MLP Comparison: Data Efficiency}{37}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Grouped-Ensemble Training for GPU Saturation}{38}{section.6.8}%
+\contentsline {chapter}{\numberline {7}Cross-Phase Comparison}{40}{chapter.7}%
+\contentsline {section}{\numberline {7.1}L2-Relative Error Across Phases}{40}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Method-Evolution Table}{41}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Design Changes and Their Effects}{41}{section.7.3}%
+\contentsline {paragraph}{Phase 1 $\to $ Phase 2: Move to non-linear regime.}{41}{section*.37}%
+\contentsline {paragraph}{Phase 2 $\to $ Phase 3: Adam $\to $ Adam + L-BFGS, soft $\to $ hard IC, wide $\to $ moderate width.}{41}{section*.38}%
+\contentsline {paragraph}{Phase 2 vs Phase 3: Reference solver upgrade.}{42}{section*.39}%
+\contentsline {section}{\numberline {7.4}Wall-Clock and Resource Use}{42}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Discussion}{43}{chapter.8}%
+\contentsline {section}{\numberline {8.1}L-BFGS Polish Dominates}{43}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Soft IC Is Dangerously $\lambda $-Sensitive}{44}{section.8.2}%
+\contentsline {section}{\numberline {8.3}The Bimodal Seed Distribution: PINN's Reproducibility Problem}{44}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Threats to Validity}{44}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Practitioner Recommendations}{44}{section.8.5}%
+\contentsline {chapter}{\numberline {9}Conclusions and Future Work}{46}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Summary of Findings}{46}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Future Work}{47}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Closing Remarks}{47}{section.9.3}%
