@@ -1,0 +1,93 @@
+Config: K=16 W=1024 D=6 N=10000 iters=2000 lr=5e-4
+GPU before: 483 MiB, 6 %
+PID=14194  started 00:44:27
+==================================================================
+==> exp_big_ensemble.py  start=00:44:27
+==================================================================
+[_common] using device=cuda
+[exp_big_ensemble] K=16 width=1024 depth=6 N_coll=10000 iters=2000 device=cuda
+[exp_big_ensemble] params/net=5,251,073  total=84,017,168
+[exp_big_ensemble] step=     0 loss=3.8828e+00 VRAM=1.36GB peak=38.72GB
+[exp_big_ensemble] step=   500 loss=4.9808e-02 VRAM=1.36GB peak=39.39GB
+[exp_big_ensemble] step=  1000 loss=1.0803e-01 VRAM=1.36GB peak=39.39GB
+[exp_big_ensemble] step=  1500 loss=5.1402e-02 VRAM=1.36GB peak=39.39GB
+[exp_big_ensemble] step=  1999 loss=3.0981e-02 VRAM=1.36GB peak=39.39GB
+[exp_big_ensemble] L2_rel mean=7.935e-01  std=1.745e-01  min=5.288e-01  max=1.002e+00  wallclock=3177.0s
+[exp_big_ensemble] DONE
+==> exp_big_ensemble.py  OK   end=01:37:48
+==================================================================
+==> exp_big_hard_vs_soft.py  start=01:37:48
+==================================================================
+[_common] using device=cuda
+[exp_big_hard_vs_soft] K=16 W=1024 D=6 N=10000 iters=2000 dev=cuda
+[exp_big_hard_vs_soft/soft] step=     0 loss=1.000e+02
+[exp_big_hard_vs_soft/soft] step=   500 loss=1.121e+05
+[exp_big_hard_vs_soft/soft] step=  1000 loss=7.010e+01
+[exp_big_hard_vs_soft/soft] step=  1500 loss=5.561e+01
+[exp_big_hard_vs_soft/hard] step=     0 loss=4.120e+00
+[exp_big_hard_vs_soft/hard] step=   500 loss=4.983e-02
+[exp_big_hard_vs_soft/hard] step=  1000 loss=4.518e+02
+[exp_big_hard_vs_soft/hard] step=  1500 loss=2.219e+02
+[exp_big_hard_vs_soft] SOFT L2: mean=2.291e+00 +/- 6.18e-01
+[exp_big_hard_vs_soft] HARD L2: mean=3.269e+00 +/- 1.61e+00
+==> exp_big_hard_vs_soft.py  OK   end=03:22:35
+==================================================================
+==> exp_big_loss_weighting.py  start=03:22:35
+==================================================================
+[_common] using device=cuda
+[exp_big_loss_weighting/lam=1.0] step=     0 loss=1.001e+00
+[exp_big_loss_weighting/lam=1.0] step=  1000 loss=3.297e+02
+[exp_big_loss_weighting/lam=1.0] L2: mean=2.903e+00 +/- 1.38e+00
+[exp_big_loss_weighting/lam=10.0] step=     0 loss=1.000e+01
+[exp_big_loss_weighting/lam=10.0] step=  1000 loss=3.658e+02
+[exp_big_loss_weighting/lam=10.0] L2: mean=3.123e+00 +/- 1.55e+00
+[exp_big_loss_weighting/lam=100.0] step=     0 loss=1.000e+02
+[exp_big_loss_weighting/lam=100.0] step=  1000 loss=8.747e+01
+[exp_big_loss_weighting/lam=100.0] L2: mean=3.021e+00 +/- 9.58e-01
+[exp_big_loss_weighting/lam=1000.0] step=     0 loss=1.000e+03
+[exp_big_loss_weighting/lam=1000.0] step=  1000 loss=7.350e+02
+[exp_big_loss_weighting/lam=1000.0] L2: mean=2.727e+00 +/- 5.27e-01
+==> exp_big_loss_weighting.py  OK   end=06:50:47
+==================================================================
+==> exp_big_inverse.py  start=06:50:47
+==================================================================
+[_common] using device=cuda
+[exp_big_inverse] K=16 W=1024 D=6 N_obs=30 sigma=0.02 iters=2000
+[exp_big_inverse] step=     0 loss=1.149e+02  zeta=0.4995 alpha=0.4997
+[exp_big_inverse] step=   500 loss=1.401e+01  zeta=0.5548 alpha=0.4908
+[exp_big_inverse] step=  1000 loss=1.558e+01  zeta=0.6374 alpha=0.4735
+[exp_big_inverse] step=  1500 loss=1.572e+01  zeta=0.7011 alpha=0.4608
+[exp_big_inverse] zeta_true=0.1  learned: 0.7169 +/- 0.1255
+[exp_big_inverse] alpha_true=1.0 learned: 0.4558 +/- 0.0079
+[exp_big_inverse] L2_rel: mean=1.355e+00 +/- 2.25e-01
+==> exp_big_inverse.py  OK   end=07:42:59
+==================================================================
+==> exp_big_noise.py  start=07:42:59
+==================================================================
+[_common] using device=cuda
+[exp_big_noise] σ=0.0  ζ=0.4705±0.1000  α=0.4609±0.0084  L2=9.390e-01±5.67e-01
+[exp_big_noise] σ=0.01  ζ=0.4781±0.1571  α=0.4631±0.0094  L2=1.012e+00±3.43e-01
+[exp_big_noise] σ=0.02  ζ=0.5708±0.1687  α=0.4613±0.0099  L2=1.087e+00±3.16e-01
+[exp_big_noise] σ=0.05  ζ=0.5240±0.1619  α=0.4597±0.0087  L2=9.333e-01±3.28e-01
+[exp_big_noise] σ=0.1  ζ=0.3673±0.1159  α=0.4660±0.0113  L2=7.932e-01±3.75e-01
+[exp_big_noise] σ=0.2  ζ=0.6108±0.1316  α=0.4642±0.0066  L2=1.170e+00±2.07e-01
+==> exp_big_noise.py  OK   end=12:56:03
+==================================================================
+==> exp_big_van_der_pol.py  start=12:56:03
+==================================================================
+[_common] using device=cuda
+[exp_big_van_der_pol/μ=0.5] step=     0 loss=3.964e+00
+[exp_big_van_der_pol/μ=0.5] step=  1500 loss=2.944e-01
+[exp_big_van_der_pol/μ=0.5] L2: mean=9.784e-01 +/- 1.45e-02
+[exp_big_van_der_pol/μ=1.0] step=     0 loss=3.961e+00
+[exp_big_van_der_pol/μ=1.0] step=  1500 loss=1.175e-01
+[exp_big_van_der_pol/μ=1.0] L2: mean=9.796e-01 +/- 7.72e-03
+[exp_big_van_der_pol/μ=2.0] step=     0 loss=3.955e+00
+[exp_big_van_der_pol/μ=2.0] step=  1500 loss=1.725e-01
+[exp_big_van_der_pol/μ=2.0] L2: mean=9.861e-01 +/- 1.11e-02
+[exp_big_van_der_pol/μ=4.0] step=     0 loss=3.943e+00
+[exp_big_van_der_pol/μ=4.0] step=  1500 loss=5.899e-01
+[exp_big_van_der_pol/μ=4.0] L2: mean=1.010e+00 +/- 8.96e-02
+==> exp_big_van_der_pol.py  OK   end=16:27:49
+wrote summary figures to /home2/arpit_thesis/pinn/figures
+ALL DONE at 16:27:51. results in /home2/arpit_thesis/pinn/results/  figures in /home2/arpit_thesis/pinn/figures/

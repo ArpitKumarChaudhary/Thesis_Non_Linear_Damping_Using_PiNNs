@@ -1,0 +1,22 @@
+[_common] using device=cuda
+using winning config: {'width': 64, 'depth': 4, 'act': 'tanh', 'lr': 0.01, 'iters': 5000, 'lbfgs': 500}
+
+[hard IC, tau=1.0]
+  HARD L2 = 7.6976e-05  (31.5s)
+
+[soft IC, lambda_ic=1.0]
+  SOFT (λ=1.0) L2 = 3.3216e-04  (39.9s)
+
+[soft IC, lambda_ic=10.0]
+  SOFT (λ=10.0) L2 = 2.6995e-01  (42.5s)
+
+[soft IC, lambda_ic=100.0]
+  SOFT (λ=100.0) L2 = 5.0151e-01  (42.7s)
+
+[soft IC, lambda_ic=1000.0]
+  SOFT (λ=1000.0) L2 = 7.6710e-01  (38.2s)
+
+best soft branch: lam_1  L2=3.3216e-04
+hard branch:      L2=7.6976e-05
+
+Done. Wrote summary plot to figures/tune_hard_vs_soft_summary.png

@@ -1,0 +1,31 @@
+[_common] using device=cuda
+  N_obs= 20 seed=0 L2=2.648e-01 (20.0s)
+  N_obs= 20 seed=1 L2=1.653e-01 (13.3s)
+  N_obs= 20 seed=2 L2=1.327e-01 (11.2s)
+  N_obs= 20 seed=3 L2=1.489e-01 (11.5s)
+  N_obs= 20 seed=4 L2=6.726e-01 (11.1s)
+  N_obs=20: mean=2.769e-01  std=2.031e-01
+  N_obs= 50 seed=0 L2=3.409e-02 (14.6s)
+  N_obs= 50 seed=1 L2=5.037e-02 (10.9s)
+  N_obs= 50 seed=2 L2=2.285e-02 (11.4s)
+  N_obs= 50 seed=3 L2=1.427e-02 (11.1s)
+  N_obs= 50 seed=4 L2=8.241e-02 (11.3s)
+  N_obs=50: mean=4.080e-02  std=2.406e-02
+  N_obs=100 seed=0 L2=8.229e-03 (9.6s)
+  N_obs=100 seed=1 L2=2.065e-02 (11.1s)
+  N_obs=100 seed=2 L2=4.174e-02 (21.5s)
+  N_obs=100 seed=3 L2=1.304e-02 (11.4s)
+  N_obs=100 seed=4 L2=1.232e-02 (19.4s)
+  N_obs=100: mean=1.920e-02  std=1.197e-02
+  N_obs=200 seed=0 L2=3.631e-03 (24.9s)
+  N_obs=200 seed=1 L2=1.557e-02 (11.3s)
+  N_obs=200 seed=2 L2=4.611e-03 (20.7s)
+  N_obs=200 seed=3 L2=1.188e-02 (11.3s)
+  N_obs=200 seed=4 L2=4.531e-03 (22.3s)
+  N_obs=200: mean=8.044e-03  std=4.794e-03
+
+=== vanilla MLP (no physics) summary ===
+  N_obs= 20: 2.769e-01 ± 2.031e-01
+  N_obs= 50: 4.080e-02 ± 2.406e-02
+  N_obs=100: 1.920e-02 ± 1.197e-02
+  N_obs=200: 8.044e-03 ± 4.794e-03

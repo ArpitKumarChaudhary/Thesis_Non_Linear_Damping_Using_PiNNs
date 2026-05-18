@@ -1,0 +1,10 @@
+[_common] using device=cuda
+stable cfg: {'width': 64, 'depth': 4, 'lr': 0.001, 'iters': 15000, 'lbfgs': 500}, seeds: [0, 1, 2, 3, 4]
+
+  seed=0  L2=1.805e-04  (90.1s)
+  seed=1  L2=1.760e-04  (88.4s)
+  seed=2  L2=1.698e-04  (76.1s)
+  seed=3  L2=2.194e-03  (64.4s)
+  seed=4  L2=1.174e-04  (78.9s)
+
+stable HARD: mean=5.674e-04  std=8.134e-04  min=1.174e-04  max=2.194e-03

@@ -1,0 +1,290 @@
+PID=1475715  started 13:26:44
+==================================================================
+==> tune_optuna.py  start=13:26:44
+==================================================================
+[I 2026-05-16 13:26:45,949] A new study created in memory with name: pinn_duffing
+[I 2026-05-16 13:27:30,168] Trial 0 finished with value: 0.05323655027846627 and parameters: {'lr': 0.0008468008575248334, 'width': 32, 'depth': 5, 'tau': 1.8778440646890768, 'iters': 5000, 'lbfgs': 500}. Best is trial 0 with value: 0.05323655027846627.
+[I 2026-05-16 13:28:35,855] Trial 1 finished with value: 0.13973031644317194 and parameters: {'lr': 0.0005265139631677753, 'width': 32, 'depth': 4, 'tau': 1.3917183431241966, 'iters': 15000, 'lbfgs': 0}. Best is trial 0 with value: 0.05323655027846627.
+[I 2026-05-16 13:29:12,716] Trial 2 finished with value: 0.00014371306961626155 and parameters: {'lr': 0.004953682563497158, 'width': 128, 'depth': 3, 'tau': 1.153894006094534, 'iters': 8000, 'lbfgs': 500}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:29:50,362] Trial 3 finished with value: 0.26683151380423314 and parameters: {'lr': 0.0003058252321378967, 'width': 128, 'depth': 3, 'tau': 0.4321677691743424, 'iters': 8000, 'lbfgs': 200}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:30:42,022] Trial 4 finished with value: 0.01084155210785011 and parameters: {'lr': 0.00813823392265051, 'width': 256, 'depth': 3, 'tau': 0.696518362233702, 'iters': 8000, 'lbfgs': 1000}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:31:25,032] Trial 5 finished with value: 0.009651890482870169 and parameters: {'lr': 0.0016718278947651618, 'width': 32, 'depth': 4, 'tau': 3.1483132509941707, 'iters': 8000, 'lbfgs': 500}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:32:23,969] Trial 6 finished with value: 0.6215622339747636 and parameters: {'lr': 0.003706960070646057, 'width': 256, 'depth': 5, 'tau': 0.3989540954422755, 'iters': 12000, 'lbfgs': 0}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:33:20,624] Trial 7 finished with value: 0.0007891254960473059 and parameters: {'lr': 0.0006859835746759404, 'width': 32, 'depth': 4, 'tau': 1.0876655187558713, 'iters': 12000, 'lbfgs': 500}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:34:21,573] Trial 8 finished with value: 0.001704194910325214 and parameters: {'lr': 0.0002285189223555347, 'width': 64, 'depth': 3, 'tau': 1.5432155008600974, 'iters': 12000, 'lbfgs': 1000}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:34:51,697] Trial 9 finished with value: 0.6104614866347167 and parameters: {'lr': 0.00010992337739283893, 'width': 128, 'depth': 5, 'tau': 0.7257716582383891, 'iters': 5000, 'lbfgs': 0}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:35:13,123] Trial 10 finished with value: 0.4093330115651678 and parameters: {'lr': 0.024619545915163882, 'width': 128, 'depth': 6, 'tau': 3.3565318620421816, 'iters': 3000, 'lbfgs': 200}. Best is trial 2 with value: 0.00014371306961626155.
+[I 2026-05-16 13:36:31,874] Trial 11 finished with value: 1.4305053203937928e-05 and parameters: {'lr': 0.007803914050649231, 'width': 64, 'depth': 4, 'tau': 0.8019601210482779, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:36:57,871] Trial 12 finished with value: 0.002632359239930029 and parameters: {'lr': 0.009493269500878834, 'width': 64, 'depth': 6, 'tau': 0.8805865542533247, 'iters': 3000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:38:05,425] Trial 13 finished with value: 1.656732243665506e-05 and parameters: {'lr': 0.005399918581418403, 'width': 64, 'depth': 4, 'tau': 0.5597774916010918, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:39:22,321] Trial 14 finished with value: 0.278700142887354 and parameters: {'lr': 0.026149610742250293, 'width': 64, 'depth': 4, 'tau': 0.5403046777632774, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:40:42,123] Trial 15 finished with value: 0.0001219714103701699 and parameters: {'lr': 0.002444139777554751, 'width': 64, 'depth': 4, 'tau': 0.560861663622606, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:41:44,918] Trial 16 finished with value: 0.34248646771731217 and parameters: {'lr': 0.01189814887490939, 'width': 64, 'depth': 4, 'tau': 0.30335680581715657, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:42:52,650] Trial 17 finished with value: 0.0005964815688900434 and parameters: {'lr': 0.001592840179016016, 'width': 64, 'depth': 4, 'tau': 2.1383380921761765, 'iters': 15000, 'lbfgs': 200}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:44:28,930] Trial 18 finished with value: 0.0003729950588546768 and parameters: {'lr': 0.0044588658272077435, 'width': 64, 'depth': 4, 'tau': 0.855058865396969, 'iters': 15000, 'lbfgs': 1000}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:45:37,650] Trial 19 finished with value: 1.4053946674166715 and parameters: {'lr': 0.013680147329072424, 'width': 64, 'depth': 6, 'tau': 0.30502692943556386, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:45:58,557] Trial 20 finished with value: 0.13718216168531416 and parameters: {'lr': 0.00659138658443211, 'width': 256, 'depth': 4, 'tau': 0.5212570487890446, 'iters': 3000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:47:04,840] Trial 21 finished with value: 0.002220379270126661 and parameters: {'lr': 0.0027947737610702805, 'width': 64, 'depth': 4, 'tau': 0.6088863985838857, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:48:20,565] Trial 22 finished with value: 0.0008689291335461821 and parameters: {'lr': 0.0029517455061164807, 'width': 64, 'depth': 4, 'tau': 0.4431452965389069, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:49:30,867] Trial 23 finished with value: 5.4692206111871505e-05 and parameters: {'lr': 0.002332918248392463, 'width': 64, 'depth': 4, 'tau': 0.8802276692898959, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:50:34,896] Trial 24 finished with value: 0.0031521412823271445 and parameters: {'lr': 0.0011742595495210062, 'width': 64, 'depth': 4, 'tau': 0.9418931407385647, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:51:13,336] Trial 25 finished with value: 0.0005804973538737931 and parameters: {'lr': 0.013790259885762423, 'width': 64, 'depth': 4, 'tau': 0.6787483732438262, 'iters': 5000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:52:06,742] Trial 26 finished with value: 0.024264005118039004 and parameters: {'lr': 0.005361298953991269, 'width': 64, 'depth': 4, 'tau': 0.8059790490211626, 'iters': 12000, 'lbfgs': 0}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:53:28,166] Trial 27 finished with value: 0.00018058043301882474 and parameters: {'lr': 0.0021699571616389, 'width': 64, 'depth': 6, 'tau': 1.1089038589767088, 'iters': 15000, 'lbfgs': 1000}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:54:33,348] Trial 28 finished with value: 0.11608666665644597 and parameters: {'lr': 0.0012749459156371774, 'width': 256, 'depth': 4, 'tau': 1.3237257000764031, 'iters': 15000, 'lbfgs': 200}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:55:04,784] Trial 29 finished with value: 0.0006595836925592865 and parameters: {'lr': 0.007235946668000287, 'width': 32, 'depth': 5, 'tau': 1.9759748786488422, 'iters': 5000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:56:04,532] Trial 30 finished with value: 1.3146802098142647 and parameters: {'lr': 0.018488156687387233, 'width': 64, 'depth': 5, 'tau': 2.557511846723413, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:57:16,997] Trial 31 finished with value: 0.00017330176740233124 and parameters: {'lr': 0.002299142575728603, 'width': 64, 'depth': 4, 'tau': 0.5435989166435099, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:58:35,348] Trial 32 finished with value: 0.0002700616288431077 and parameters: {'lr': 0.0034225105338967303, 'width': 64, 'depth': 4, 'tau': 0.35995993727871006, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 13:59:51,164] Trial 33 finished with value: 0.00012069750331253309 and parameters: {'lr': 0.000970367053822826, 'width': 64, 'depth': 4, 'tau': 0.5987531355940364, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:01:13,715] Trial 34 finished with value: 4.9637532449242167e-05 and parameters: {'lr': 0.0008639168752092924, 'width': 64, 'depth': 4, 'tau': 0.996739359769593, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:02:13,676] Trial 35 finished with value: 0.20122523774282933 and parameters: {'lr': 0.0005278288217326359, 'width': 128, 'depth': 3, 'tau': 0.9940358669008723, 'iters': 15000, 'lbfgs': 0}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:02:55,050] Trial 36 finished with value: 0.122822389678256 and parameters: {'lr': 0.0003496411076121868, 'width': 32, 'depth': 4, 'tau': 1.3104937787018245, 'iters': 8000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:03:55,283] Trial 37 finished with value: 0.00030551965991910463 and parameters: {'lr': 0.0007463623437051724, 'width': 64, 'depth': 3, 'tau': 0.7185960543510576, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:04:42,926] Trial 38 finished with value: 0.0010620568480535397 and parameters: {'lr': 0.004539178773294154, 'width': 256, 'depth': 4, 'tau': 0.46919459224053983, 'iters': 8000, 'lbfgs': 1000}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:05:37,581] Trial 39 finished with value: 0.00402501665532847 and parameters: {'lr': 0.0015450817361722363, 'width': 32, 'depth': 4, 'tau': 1.6297328330382566, 'iters': 12000, 'lbfgs': 200}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:06:13,667] Trial 40 finished with value: 0.0004903575053278716 and parameters: {'lr': 0.005592695617496105, 'width': 128, 'depth': 5, 'tau': 1.0216608356561627, 'iters': 5000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:07:24,526] Trial 41 finished with value: 0.0017712071522453011 and parameters: {'lr': 0.0009692333112741331, 'width': 64, 'depth': 4, 'tau': 0.78554660085233, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:08:35,379] Trial 42 finished with value: 0.001937253584112541 and parameters: {'lr': 0.0005490124073293855, 'width': 64, 'depth': 4, 'tau': 0.6349878305394939, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:09:44,763] Trial 43 finished with value: 0.001212757860742747 and parameters: {'lr': 0.0003567561302456982, 'width': 64, 'depth': 4, 'tau': 0.6114560833904003, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:09:59,121] Trial 44 finished with value: 0.3998967642588845 and parameters: {'lr': 0.0009347171726033261, 'width': 64, 'depth': 4, 'tau': 1.172772613504593, 'iters': 3000, 'lbfgs': 0}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:11:01,767] Trial 45 finished with value: 0.009567210606728868 and parameters: {'lr': 0.00019119141294339788, 'width': 64, 'depth': 3, 'tau': 0.7795876950460855, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:11:50,725] Trial 46 finished with value: 0.00016863740341986632 and parameters: {'lr': 0.00842126018728169, 'width': 64, 'depth': 4, 'tau': 0.9160598846179706, 'iters': 8000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:13:00,621] Trial 47 finished with value: 0.0005490294786628943 and parameters: {'lr': 0.0019220570879228643, 'width': 128, 'depth': 6, 'tau': 0.4817684048555385, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:14:07,592] Trial 48 finished with value: 0.0037771566806633476 and parameters: {'lr': 0.003552415372046219, 'width': 64, 'depth': 4, 'tau': 0.41036370757277907, 'iters': 15000, 'lbfgs': 200}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:14:36,838] Trial 49 finished with value: 0.3121061270374274 and parameters: {'lr': 0.001165997522167228, 'width': 256, 'depth': 4, 'tau': 1.2156330442682701, 'iters': 3000, 'lbfgs': 1000}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:15:52,777] Trial 50 finished with value: 0.00012757874082753426 and parameters: {'lr': 0.0007550181349617885, 'width': 64, 'depth': 5, 'tau': 1.5402519355905855, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:17:06,261] Trial 51 finished with value: 6.389920696699249e-05 and parameters: {'lr': 0.0026139559640516127, 'width': 64, 'depth': 4, 'tau': 0.5608872331665413, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:18:17,240] Trial 52 finished with value: 0.0003059322557286045 and parameters: {'lr': 0.0015152105225966926, 'width': 64, 'depth': 4, 'tau': 0.672489825849507, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:19:31,201] Trial 53 finished with value: 0.11570431005479657 and parameters: {'lr': 0.009829119924823652, 'width': 64, 'depth': 4, 'tau': 0.35892716576418876, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:20:38,483] Trial 54 finished with value: 2.8132719742303396e-05 and parameters: {'lr': 0.004201492587388283, 'width': 64, 'depth': 4, 'tau': 0.575017640972176, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:21:35,077] Trial 55 finished with value: 0.00024241943407948575 and parameters: {'lr': 0.004330335057897263, 'width': 64, 'depth': 4, 'tau': 0.4911900087345584, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:22:44,721] Trial 56 finished with value: 5.449186122354973e-05 and parameters: {'lr': 0.006235261392526194, 'width': 32, 'depth': 4, 'tau': 0.7385719397349402, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:23:59,402] Trial 57 finished with value: 0.052386133902648145 and parameters: {'lr': 0.007371191691167013, 'width': 32, 'depth': 6, 'tau': 0.7496034630310491, 'iters': 15000, 'lbfgs': 0}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:24:26,951] Trial 58 finished with value: 0.001514369873436071 and parameters: {'lr': 0.01139957411590745, 'width': 32, 'depth': 4, 'tau': 0.8713276152930063, 'iters': 5000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:25:29,571] Trial 59 finished with value: 0.0018378648842555816 and parameters: {'lr': 0.0056168984928321175, 'width': 32, 'depth': 3, 'tau': 1.0482127044258984, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:26:37,368] Trial 60 finished with value: 0.0017990308369120191 and parameters: {'lr': 0.006331288159548539, 'width': 32, 'depth': 4, 'tau': 3.9413954232644355, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:27:47,710] Trial 61 finished with value: 0.00010182485828786445 and parameters: {'lr': 0.002969783446391327, 'width': 64, 'depth': 4, 'tau': 0.6712748740848526, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:29:04,708] Trial 62 finished with value: 7.005012320396483e-05 and parameters: {'lr': 0.0037505320829641304, 'width': 64, 'depth': 4, 'tau': 0.58101400006752, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:30:11,795] Trial 63 finished with value: 0.00012040980941574925 and parameters: {'lr': 0.002510637038199119, 'width': 64, 'depth': 4, 'tau': 0.8536581992421016, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:31:29,339] Trial 64 finished with value: 0.0011338027670143574 and parameters: {'lr': 0.0018443361899480172, 'width': 32, 'depth': 4, 'tau': 0.5213492450596228, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:32:31,477] Trial 65 finished with value: 0.9860132241897036 and parameters: {'lr': 0.015464888939197638, 'width': 64, 'depth': 4, 'tau': 0.9462608756033654, 'iters': 15000, 'lbfgs': 1000}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:32:48,838] Trial 66 finished with value: 0.49315776303653774 and parameters: {'lr': 0.009772195394438955, 'width': 256, 'depth': 4, 'tau': 0.7199603711830684, 'iters': 3000, 'lbfgs': 200}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:33:57,367] Trial 67 finished with value: 0.3036436311131697 and parameters: {'lr': 0.004308897621994507, 'width': 128, 'depth': 4, 'tau': 0.8408180660733781, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:34:42,778] Trial 68 finished with value: 0.0001702594227146844 and parameters: {'lr': 0.0028699705381781187, 'width': 64, 'depth': 4, 'tau': 0.67296224124905, 'iters': 8000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:35:47,841] Trial 69 finished with value: 0.0002762858263523598 and parameters: {'lr': 0.008290701929815712, 'width': 64, 'depth': 6, 'tau': 0.5618536232828667, 'iters': 12000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:37:06,227] Trial 70 finished with value: 0.3220593076934263 and parameters: {'lr': 0.006272496815504118, 'width': 64, 'depth': 5, 'tau': 0.6250773440278834, 'iters': 15000, 'lbfgs': 0}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:38:16,077] Trial 71 finished with value: 0.00010164450013140952 and parameters: {'lr': 0.0039373699635270945, 'width': 64, 'depth': 4, 'tau': 0.5689920044234781, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:39:27,046] Trial 72 finished with value: 0.0001367348332397773 and parameters: {'lr': 0.0032809016971918686, 'width': 64, 'depth': 4, 'tau': 0.43764929237504474, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:40:37,530] Trial 73 finished with value: 4.057047059464446e-05 and parameters: {'lr': 0.004837780134060035, 'width': 64, 'depth': 4, 'tau': 0.5142741284482374, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:41:45,715] Trial 74 finished with value: 0.00033674133037235 and parameters: {'lr': 0.005055759285784687, 'width': 64, 'depth': 4, 'tau': 0.5272688494853712, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:42:50,093] Trial 75 finished with value: 2.598129124495325e-05 and parameters: {'lr': 0.005044289218572178, 'width': 64, 'depth': 4, 'tau': 0.3843025312997784, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:43:21,131] Trial 76 finished with value: 0.01386977174574717 and parameters: {'lr': 0.005475500834350489, 'width': 32, 'depth': 4, 'tau': 0.3611033896078151, 'iters': 5000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:44:44,339] Trial 77 finished with value: 0.0675487954794588 and parameters: {'lr': 0.0066687731058183985, 'width': 64, 'depth': 4, 'tau': 0.39288067441977204, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:45:46,018] Trial 78 finished with value: 9.495917119464235e-05 and parameters: {'lr': 0.0048278383831911135, 'width': 64, 'depth': 3, 'tau': 0.32123333728562004, 'iters': 15000, 'lbfgs': 500}. Best is trial 11 with value: 1.4305053203937928e-05.
+[I 2026-05-16 14:46:52,970] Trial 79 finished with value: 3.971270022044606e-05 and parameters: {'lr': 0.002168194712806614, 'width': 256, 'depth': 4, 'tau': 0.46120180099354346, 'iters': 12000, 'lbfgs': 1000}. Best is trial 11 with value: 1.4305053203937928e-05.
+[_common] using device=cuda
+[tune_optuna] target: minimise L2-rel on free Duffing benchmark
+[tune_optuna] budget: 80 TPE trials, single seed (seed=0)
+  trial   0: L2=5.324e-02  best so far=5.324e-02
+  trial   1: L2=1.397e-01  best so far=5.324e-02
+  trial   2: L2=1.437e-04  best so far=1.437e-04
+  trial   3: L2=2.668e-01  best so far=1.437e-04
+  trial   4: L2=1.084e-02  best so far=1.437e-04
+  trial   5: L2=9.652e-03  best so far=1.437e-04
+  trial   6: L2=6.216e-01  best so far=1.437e-04
+  trial   7: L2=7.891e-04  best so far=1.437e-04
+  trial   8: L2=1.704e-03  best so far=1.437e-04
+  trial   9: L2=6.105e-01  best so far=1.437e-04
+  trial  10: L2=4.093e-01  best so far=1.437e-04
+  trial  11: L2=1.431e-05  best so far=1.431e-05
+  trial  12: L2=2.632e-03  best so far=1.431e-05
+  trial  13: L2=1.657e-05  best so far=1.431e-05
+  trial  14: L2=2.787e-01  best so far=1.431e-05
+  trial  15: L2=1.220e-04  best so far=1.431e-05
+  trial  16: L2=3.425e-01  best so far=1.431e-05
+  trial  17: L2=5.965e-04  best so far=1.431e-05
+  trial  18: L2=3.730e-04  best so far=1.431e-05
+  trial  19: L2=1.405e+00  best so far=1.431e-05
+  trial  20: L2=1.372e-01  best so far=1.431e-05
+  trial  21: L2=2.220e-03  best so far=1.431e-05
+  trial  22: L2=8.689e-04  best so far=1.431e-05
+  trial  23: L2=5.469e-05  best so far=1.431e-05
+  trial  24: L2=3.152e-03  best so far=1.431e-05
+  trial  25: L2=5.805e-04  best so far=1.431e-05
+  trial  26: L2=2.426e-02  best so far=1.431e-05
+  trial  27: L2=1.806e-04  best so far=1.431e-05
+  trial  28: L2=1.161e-01  best so far=1.431e-05
+  trial  29: L2=6.596e-04  best so far=1.431e-05
+  trial  30: L2=1.315e+00  best so far=1.431e-05
+  trial  31: L2=1.733e-04  best so far=1.431e-05
+  trial  32: L2=2.701e-04  best so far=1.431e-05
+  trial  33: L2=1.207e-04  best so far=1.431e-05
+  trial  34: L2=4.964e-05  best so far=1.431e-05
+  trial  35: L2=2.012e-01  best so far=1.431e-05
+  trial  36: L2=1.228e-01  best so far=1.431e-05
+  trial  37: L2=3.055e-04  best so far=1.431e-05
+  trial  38: L2=1.062e-03  best so far=1.431e-05
+  trial  39: L2=4.025e-03  best so far=1.431e-05
+  trial  40: L2=4.904e-04  best so far=1.431e-05
+  trial  41: L2=1.771e-03  best so far=1.431e-05
+  trial  42: L2=1.937e-03  best so far=1.431e-05
+  trial  43: L2=1.213e-03  best so far=1.431e-05
+  trial  44: L2=3.999e-01  best so far=1.431e-05
+  trial  45: L2=9.567e-03  best so far=1.431e-05
+  trial  46: L2=1.686e-04  best so far=1.431e-05
+  trial  47: L2=5.490e-04  best so far=1.431e-05
+  trial  48: L2=3.777e-03  best so far=1.431e-05
+  trial  49: L2=3.121e-01  best so far=1.431e-05
+  trial  50: L2=1.276e-04  best so far=1.431e-05
+  trial  51: L2=6.390e-05  best so far=1.431e-05
+  trial  52: L2=3.059e-04  best so far=1.431e-05
+  trial  53: L2=1.157e-01  best so far=1.431e-05
+  trial  54: L2=2.813e-05  best so far=1.431e-05
+  trial  55: L2=2.424e-04  best so far=1.431e-05
+  trial  56: L2=5.449e-05  best so far=1.431e-05
+  trial  57: L2=5.239e-02  best so far=1.431e-05
+  trial  58: L2=1.514e-03  best so far=1.431e-05
+  trial  59: L2=1.838e-03  best so far=1.431e-05
+  trial  60: L2=1.799e-03  best so far=1.431e-05
+  trial  61: L2=1.018e-04  best so far=1.431e-05
+  trial  62: L2=7.005e-05  best so far=1.431e-05
+  trial  63: L2=1.204e-04  best so far=1.431e-05
+  trial  64: L2=1.134e-03  best so far=1.431e-05
+  trial  65: L2=9.860e-01  best so far=1.431e-05
+  trial  66: L2=4.932e-01  best so far=1.431e-05
+  trial  67: L2=3.036e-01  best so far=1.431e-05
+  trial  68: L2=1.703e-04  best so far=1.431e-05
+  trial  69: L2=2.763e-04  best so far=1.431e-05
+  trial  70: L2=3.221e-01  best so far=1.431e-05
+  trial  71: L2=1.016e-04  best so far=1.431e-05
+  trial  72: L2=1.367e-04  best so far=1.431e-05
+  trial  73: L2=4.057e-05  best so far=1.431e-05
+  trial  74: L2=3.367e-04  best so far=1.431e-05
+  trial  75: L2=2.598e-05  best so far=1.431e-05
+  trial  76: L2=1.387e-02  best so far=1.431e-05
+  trial  77: L2=6.755e-02  best so far=1.431e-05
+  trial  78: L2=9.496e-05  best so far=1.431e-05
+  trial  79: L2=3.971e-05  best so far=1.431e-05
+
+[tune_optuna] best L2: 1.4305e-05
+[tune_optuna] best params: {
+  "lr": 0.007803914050649231,
+  "width": 64,
+  "depth": 4,
+  "tau": 0.8019601210482779,
+  "iters": 12000,
+  "lbfgs": 500
+}
+[tune_optuna] wallclock: 4807.0 s over 80 trials
+
+[tune_optuna] hyperparameter importance:
+  lr: 0.675
+  iters: 0.139
+  lbfgs: 0.079
+  depth: 0.049
+  width: 0.033
+  tau: 0.025
+
+[tune_optuna] wrote figures/tune_optuna_summary.png
+==> tune_optuna.py  OK   end=14:46:59
+==================================================================
+==> tune_fourier.py  start=14:46:59
+==================================================================
+[_common] using device=cuda
+  T=   20 mlp     seed=0 L2=2.596e-04  (69.1s)
+  T=   20 mlp     seed=1 L2=1.661e-04  (69.0s)
+  T=   20 mlp     seed=2 L2=2.321e-05  (73.7s)
+  T=   20 mlp     seed=3 L2=1.814e-04  (67.8s)
+  T=   20 mlp     seed=4 L2=2.587e-04  (68.3s)
+  T=   20 mlp      mean L2=1.778e-04 +/- 8.64e-05
+
+  T=   20 fourier seed=0 L2=7.824e-01  (85.4s)
+  T=   20 fourier seed=1 L2=8.180e-01  (84.9s)
+  T=   20 fourier seed=2 L2=7.339e-01  (89.5s)
+  T=   20 fourier seed=3 L2=9.375e-01  (84.7s)
+  T=   20 fourier seed=4 L2=7.848e-01  (85.4s)
+  T=   20 fourier  mean L2=8.113e-01 +/- 6.86e-02
+
+  T=   50 mlp     seed=0 L2=1.967e-01  (162.0s)
+  T=   50 mlp     seed=1 L2=1.905e-01  (160.5s)
+  T=   50 mlp     seed=2 L2=1.969e-01  (167.6s)
+  T=   50 mlp     seed=3 L2=1.661e-01  (163.8s)
+  T=   50 mlp     seed=4 L2=1.356e-01  (161.6s)
+  T=   50 mlp      mean L2=1.771e-01 +/- 2.36e-02
+
+  T=   50 fourier seed=0 L2=7.845e-01  (201.1s)
+  T=   50 fourier seed=1 L2=6.353e-01  (204.0s)
+  T=   50 fourier seed=2 L2=7.330e-01  (203.4s)
+  T=   50 fourier seed=3 L2=5.790e-01  (202.4s)
+  T=   50 fourier seed=4 L2=7.168e-01  (206.2s)
+  T=   50 fourier  mean L2=6.897e-01 +/- 7.32e-02
+
+  T=  100 mlp     seed=0 L2=8.691e-02  (353.0s)
+  T=  100 mlp     seed=1 L2=1.026e-01  (347.2s)
+  T=  100 mlp     seed=2 L2=3.107e-01  (348.7s)
+  T=  100 mlp     seed=3 L2=1.437e-01  (347.3s)
+  T=  100 mlp     seed=4 L2=1.388e-01  (347.0s)
+  T=  100 mlp      mean L2=1.565e-01 +/- 8.00e-02
+
+  T=  100 fourier seed=0 L2=6.374e-01  (445.6s)
+  T=  100 fourier seed=1 L2=2.523e-01  (447.1s)
+  T=  100 fourier seed=2 L2=2.923e-01  (445.6s)
+  T=  100 fourier seed=3 L2=2.550e-02  (446.8s)
+  T=  100 fourier seed=4 L2=5.843e-02  (447.6s)
+  T=  100 fourier  mean L2=2.532e-01 +/- 2.19e-01
+
+
+=== SUMMARY ===
+  T=   20 mlp    : L2=1.778e-04 +/- 8.64e-05  (69.6s/seed)
+  T=   20 fourier: L2=8.113e-01 +/- 6.86e-02  (86.0s/seed)
+  T=   50 mlp    : L2=1.771e-01 +/- 2.36e-02  (163.1s/seed)
+  T=   50 fourier: L2=6.897e-01 +/- 7.32e-02  (203.4s/seed)
+  T=  100 mlp    : L2=1.565e-01 +/- 8.00e-02  (348.6s/seed)
+  T=  100 fourier: L2=2.532e-01 +/- 2.19e-01  (446.5s/seed)
+
+wrote figures/tune_fourier_summary.png
+==> tune_fourier.py  OK   end=16:36:47
+==================================================================
+==> tune_arch.py  start=16:36:47
+==================================================================
+[_common] using device=cuda
+depths=[2, 3, 4, 5, 6] widths=[16, 32, 64, 128, 256] seeds=[0, 1, 2, 3, 4]
+total trials = 125 = 125
+
+  depth=2 width= 16 (~   320 par)  L2 mean=1.936e-01 std=5.44e-02  (40.4s/seed)
+  depth=2 width= 32 (~  1152 par)  L2 mean=1.391e-01 std=8.57e-02  (37.1s/seed)
+  depth=2 width= 64 (~  4352 par)  L2 mean=2.290e-01 std=1.08e-01  (33.9s/seed)
+  depth=2 width=128 (~ 16896 par)  L2 mean=1.936e-01 std=7.41e-02  (38.9s/seed)
+  depth=2 width=256 (~ 66560 par)  L2 mean=2.450e-01 std=6.85e-02  (33.3s/seed)
+
+  depth=3 width= 16 (~   592 par)  L2 mean=1.265e-01 std=1.31e-01  (35.8s/seed)
+  depth=3 width= 32 (~  2208 par)  L2 mean=1.739e-02 std=2.53e-02  (40.2s/seed)
+  depth=3 width= 64 (~  8512 par)  L2 mean=2.943e-02 std=2.53e-02  (39.4s/seed)
+  depth=3 width=128 (~ 33408 par)  L2 mean=7.449e-02 std=2.42e-02  (40.4s/seed)
+  depth=3 width=256 (~132352 par)  L2 mean=2.087e-01 std=1.20e-01  (39.3s/seed)
+
+  depth=4 width= 16 (~   864 par)  L2 mean=1.067e-01 std=3.98e-02  (44.2s/seed)
+  depth=4 width= 32 (~  3264 par)  L2 mean=8.895e-03 std=5.93e-03  (46.1s/seed)
+  depth=4 width= 64 (~ 12672 par)  L2 mean=2.058e-02 std=2.79e-02  (43.1s/seed)
+  depth=4 width=128 (~ 49920 par)  L2 mean=1.800e-02 std=2.41e-02  (44.2s/seed)
+  depth=4 width=256 (~198144 par)  L2 mean=1.737e-01 std=1.05e-01  (44.1s/seed)
+
+  depth=5 width= 16 (~  1136 par)  L2 mean=1.803e-02 std=9.90e-03  (46.3s/seed)
+  depth=5 width= 32 (~  4320 par)  L2 mean=9.015e-03 std=1.18e-02  (46.5s/seed)
+  depth=5 width= 64 (~ 16832 par)  L2 mean=2.873e-03 std=4.94e-03  (45.8s/seed)
+  depth=5 width=128 (~ 66432 par)  L2 mean=2.996e-03 std=3.31e-03  (45.9s/seed)
+  depth=5 width=256 (~263936 par)  L2 mean=1.125e-01 std=3.80e-02  (51.4s/seed)
+
+  depth=6 width= 16 (~  1408 par)  L2 mean=2.498e-02 std=3.29e-02  (50.5s/seed)
+  depth=6 width= 32 (~  5376 par)  L2 mean=5.747e-04 std=5.35e-04  (49.1s/seed)
+  depth=6 width= 64 (~ 20992 par)  L2 mean=4.767e-04 std=2.16e-04  (47.6s/seed)
+  depth=6 width=128 (~ 82944 par)  L2 mean=3.369e-04 std=2.28e-04  (49.6s/seed)
+  depth=6 width=256 (~329728 par)  L2 mean=1.233e-01 std=1.03e-01  (51.5s/seed)
+
+
+best cell: depth=6, width=128 -> mean L2=3.369e-04
+
+wrote figures/tune_arch_heatmap.png
+==> tune_arch.py  OK   end=18:07:12
+ALL DONE at 18:07:12

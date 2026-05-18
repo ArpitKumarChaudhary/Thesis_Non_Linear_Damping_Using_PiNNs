@@ -1,0 +1,4 @@
+[_common] using device=cuda
+OOM at (16, 512, 4, 20000): CUDA out of memory. Tried to allocate 626.00 MiB. GPU 0 has a total capacity of 47.39 GiB of which 574.06 MiB is free. Process 95231 has 27.42 GiB memory in use. Including non-PyTorch memory, this process has 18.76 GiB memory in use. Of the allocated memory 18.43 GiB is allocated by PyTorch, and 19.37 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+No config in the sweep hit 40.0 GB. Largest measured peak above.

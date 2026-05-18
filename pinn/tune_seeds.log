@@ -1,0 +1,46 @@
+[_common] using device=cuda
+winning config: {'width': 64, 'depth': 4, 'act': 'tanh', 'lr': 0.01, 'iters': 5000, 'lbfgs': 500}
+seeds: [0, 1, 2, 3, 4]
+
+=== exp1: tuned baseline (hard IC, tau=1.0) ===
+  seed=0  L2=7.698e-05  (33.2s)
+  seed=1  L2=2.441e-01  (39.0s)
+  seed=2  L2=1.838e-03  (30.1s)
+  seed=3  L2=1.152e-02  (38.7s)
+  seed=4  L2=1.804e-04  (30.4s)
+  HARD L2: mean=5.155e-02  std=9.639e-02  min=7.698e-05  max=2.441e-01
+
+=== exp2: hard vs soft IC, all variants × seeds ===
+  λ=1.0  seed=0  L2=3.322e-04  (38.8s)
+  λ=1.0  seed=1  L2=1.194e-01  (45.8s)
+  λ=1.0  seed=2  L2=3.627e-04  (35.7s)
+  λ=1.0  seed=3  L2=9.868e-02  (39.7s)
+  λ=1.0  seed=4  L2=1.864e-03  (41.0s)
+  SOFT λ=1.0 L2: mean=4.413e-02  std=5.341e-02
+  λ=10.0  seed=0  L2=2.699e-01  (39.9s)
+  λ=10.0  seed=1  L2=1.549e-01  (40.1s)
+  λ=10.0  seed=2  L2=1.301e-01  (34.5s)
+  λ=10.0  seed=3  L2=2.557e-01  (38.3s)
+  λ=10.0  seed=4  L2=2.471e-01  (32.4s)
+  SOFT λ=10.0 L2: mean=2.115e-01  std=5.740e-02
+  λ=100.0  seed=0  L2=5.015e-01  (40.3s)
+  λ=100.0  seed=1  L2=5.892e-01  (36.2s)
+  λ=100.0  seed=2  L2=5.166e-01  (40.8s)
+  λ=100.0  seed=3  L2=5.133e-01  (37.8s)
+  λ=100.0  seed=4  L2=5.507e-01  (30.8s)
+  SOFT λ=100.0 L2: mean=5.343e-01  std=3.196e-02
+  λ=1000.0  seed=0  L2=7.671e-01  (34.2s)
+  λ=1000.0  seed=1  L2=7.376e-01  (37.9s)
+  λ=1000.0  seed=2  L2=7.275e-01  (36.5s)
+  λ=1000.0  seed=3  L2=7.090e-01  (39.7s)
+  λ=1000.0  seed=4  L2=6.843e-01  (35.1s)
+  SOFT λ=1000.0 L2: mean=7.251e-01  std=2.774e-02
+
+=== SUMMARY (mean ± std over 5 seeds) ===
+  hard IC, tau=1.0    : 5.155e-02 ± 9.639e-02
+  soft IC, λ=   1.0: 4.413e-02 ± 5.341e-02
+  soft IC, λ=  10.0: 2.115e-01 ± 5.740e-02
+  soft IC, λ= 100.0: 5.343e-01 ± 3.196e-02
+  soft IC, λ=1000.0: 7.251e-01 ± 2.774e-02
+
+saved figures/tune_seeds_summary.png

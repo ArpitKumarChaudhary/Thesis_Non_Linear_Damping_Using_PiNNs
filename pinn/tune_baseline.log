@@ -1,0 +1,48 @@
+[_common] using device=cuda
+[phase 0] seed config
+  seed                            L2=3.046e-01  (22.5s)
+  best so far: L2=3.046e-01
+[phase 1] lr sweep
+  lr=0.0003                       L2=3.816e-01  (21.5s)
+  lr=0.001                        L2=3.046e-01  (22.0s)
+  lr=0.003                        L2=1.641e-01  (21.8s)
+  lr=0.01                         L2=9.080e-02  (22.1s)
+  best so far: lr=0.01  L2=9.080e-02
+[phase 2] architecture sweep
+  w=32 d=3                        L2=2.214e-01  (18.4s)
+  w=64 d=4                        L2=9.080e-02  (18.0s)
+  w=128 d=4                       L2=2.900e-01  (21.2s)
+  w=128 d=5                       L2=5.116e-01  (21.6s)
+  w=256 d=4                       L2=1.007e+00  (21.5s)
+  best so far: width=64 depth=4  L2=9.080e-02
+[phase 3] hard-IC tau sweep
+  tau=0.5                         L2=2.816e-01  (21.1s)
+  tau=1.0                         L2=9.080e-02  (21.3s)
+  tau=2.0                         L2=2.263e-01  (21.0s)
+  tau=4.0                         L2=7.091e-01  (21.9s)
+  best so far: tau=1.0  L2=9.080e-02
+[phase 4] longer training
+  n=2000 it=10000                 L2=2.542e-01  (41.8s)
+  n=4000 it=10000                 L2=5.859e-01  (42.5s)
+  n=4000 it=20000                 L2=4.511e-01  (83.5s)
+  best so far: n_coll=2000 iters=5000  L2=9.080e-02
+[phase 5] L-BFGS polish
+  lbfgs=200                       L2=1.760e-04  (24.0s)
+  lbfgs=500                       L2=7.698e-05  (34.3s)
+  lbfgs=1000                      L2=7.698e-05  (27.3s)
+
+FINAL BEST: L2=7.6976e-05
+            cfg={
+  "width": 64,
+  "depth": 4,
+  "act": "tanh",
+  "ic_mode": "hard",
+  "tau": 1.0,
+  "lambda_ic": 100.0,
+  "n_coll": 2000,
+  "lr": 0.01,
+  "iters": 5000,
+  "lbfgs": 500
+}
+
+Done. Best L2 = 7.6976e-05  (reached target 1e-2)
